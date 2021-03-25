@@ -14,6 +14,8 @@
 		14712126260BACA8007CCEBF /* Karma_ounter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14712124260BACA8007CCEBF /* Karma_ounter.xcdatamodeld */; };
 		14712128260BACAB007CCEBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14712127260BACAB007CCEBF /* Assets.xcassets */; };
 		1471212B260BACAB007CCEBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14712129260BACAB007CCEBF /* LaunchScreen.storyboard */; };
+		14712136260BAFF8007CCEBF /* Karma+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14712134260BAFF8007CCEBF /* Karma+CoreDataClass.swift */; };
+		14712137260BAFF8007CCEBF /* Karma+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14712135260BAFF8007CCEBF /* Karma+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		14712127260BACAB007CCEBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1471212A260BACAB007CCEBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1471212C260BACAB007CCEBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14712134260BAFF8007CCEBF /* Karma+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Karma+CoreDataClass.swift"; sourceTree = "<group>"; };
+		14712135260BAFF8007CCEBF /* Karma+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Karma+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,8 @@
 		1471210F260BACA8007CCEBF = {
 			isa = PBXGroup;
 			children = (
+				14712134260BAFF8007CCEBF /* Karma+CoreDataClass.swift */,
+				14712135260BAFF8007CCEBF /* Karma+CoreDataProperties.swift */,
 				1471211A260BACA8007CCEBF /* KarmaСounter */,
 				14712119260BACA8007CCEBF /* Products */,
 			);
@@ -142,7 +148,9 @@
 			files = (
 				14712120260BACA8007CCEBF /* ViewController.swift in Sources */,
 				14712126260BACA8007CCEBF /* Karma_ounter.xcdatamodeld in Sources */,
+				14712136260BAFF8007CCEBF /* Karma+CoreDataClass.swift in Sources */,
 				1471211C260BACA8007CCEBF /* AppDelegate.swift in Sources */,
+				14712137260BAFF8007CCEBF /* Karma+CoreDataProperties.swift in Sources */,
 				1471211E260BACA8007CCEBF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
