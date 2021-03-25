@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello User" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4G-62-Jue">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter you name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4G-62-Jue">
                                 <rect key="frame" x="107" y="122" width="200" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
@@ -80,7 +80,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="addKarmaButton" destination="dX8-tx-LBv" id="net-T8-Qsm"/>
+                        <outlet property="enterNameLabel" destination="70K-PK-YGo" id="HWm-nn-Fj3"/>
                         <outlet property="karamaCount" destination="oVj-NZ-jjg" id="L2e-i6-sP5"/>
+                        <outlet property="saveNameButton" destination="rsD-eN-3Pk" id="2h8-bx-FUK"/>
+                        <outlet property="userNameLabel" destination="U4G-62-Jue" id="KOg-io-kqz"/>
+                        <outlet property="yourKarmaLabel" destination="SLJ-2i-l3E" id="jES-S1-DUB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -16,6 +16,7 @@
 		1471212B260BACAB007CCEBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14712129260BACAB007CCEBF /* LaunchScreen.storyboard */; };
 		14712136260BAFF8007CCEBF /* Karma+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14712134260BAFF8007CCEBF /* Karma+CoreDataClass.swift */; };
 		14712137260BAFF8007CCEBF /* Karma+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14712135260BAFF8007CCEBF /* Karma+CoreDataProperties.swift */; };
+		1471215D260C6BE0007CCEBF /* DataStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1471215C260C6BE0007CCEBF /* DataStoreManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		1471212C260BACAB007CCEBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14712134260BAFF8007CCEBF /* Karma+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Karma+CoreDataClass.swift"; sourceTree = "<group>"; };
 		14712135260BAFF8007CCEBF /* Karma+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Karma+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1471215C260C6BE0007CCEBF /* DataStoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStoreManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				1471211B260BACA8007CCEBF /* AppDelegate.swift */,
+				1471215C260C6BE0007CCEBF /* DataStoreManager.swift */,
 				1471211D260BACA8007CCEBF /* SceneDelegate.swift */,
 				1471211F260BACA8007CCEBF /* ViewController.swift */,
 				14712121260BACA8007CCEBF /* Main.storyboard */,
@@ -150,6 +153,7 @@
 				14712126260BACA8007CCEBF /* Karma_ounter.xcdatamodeld in Sources */,
 				14712136260BAFF8007CCEBF /* Karma+CoreDataClass.swift in Sources */,
 				1471211C260BACA8007CCEBF /* AppDelegate.swift in Sources */,
+				1471215D260C6BE0007CCEBF /* DataStoreManager.swift in Sources */,
 				14712137260BAFF8007CCEBF /* Karma+CoreDataProperties.swift in Sources */,
 				1471211E260BACA8007CCEBF /* SceneDelegate.swift in Sources */,
 			);
